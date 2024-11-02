@@ -2,8 +2,10 @@ name: Pipe auto deploy render
 
 on:
   push:
-    branches: [ "main" ]
-
+    branches: [ "main", "develop"]
+  pull_request:
+    branches: ["main", "develop"]
+    
 jobs:
   build:
 
