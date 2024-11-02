@@ -2,9 +2,7 @@ name: Pipe auto deploy render
 
 on:
   push:
-    branches: [ "main", "develop"]
-  pull_request:
-    branches: ["main", "develop"]
+    branches: [ "main"]
     
 jobs:
   build:
@@ -26,6 +24,5 @@ jobs:
       - name: Serviço de deploy no render
         uses: johnbeynon/render-deploy-action@v0.0.8
         with:
-          service-id: ${{ secrets.SERVICEID }}
-          api-key: ${{ secrets.APIKEY }}
-
+          service-id: srv-crpcerdds78s73d80nd0
+          api-key: rnd_4qGjzvZUN8YEostHAhjxbqBkU4XO
