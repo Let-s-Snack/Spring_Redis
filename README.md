@@ -13,7 +13,7 @@ Abaixo estão as principais funcionalidades dos endpoints:
 
 ## Rotas
 Aqui está toda documentação da API:
-- https://spring-redis-prod.onrender.com/swagger-ui/index.html#/
+- [Swagger](https://spring-redis-dev.onrender.com/swagger-ui/index.html#/)
 
 
 
